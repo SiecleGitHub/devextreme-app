@@ -1,6 +1,22 @@
-# DevexTest
+# Angular DevExtreme Application
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.2.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.2 and DevExtreme Angular components.
+
+![alt text](https://github.com/SiecleGitHub/devextreme-app/blob/main/devextreme-example-02.jpg?raw=true)
+![alt text](https://github.com/SiecleGitHub/devextreme-app/blob/main/devextreme-example-01.jpg?raw=true)
+![alt text](https://github.com/SiecleGitHub/devextreme-app/blob/main/devextreme-example-03.jpg?raw=true)
+
+```bash
+cd projects
+cd angular
+mkdir devextreme
+cd devextreme
+nvm use v22.14.0
+npx devextreme-cli new angular-app devex-test
+cd devex-test
+git branch -M main
+npm run start
+```
 
 ## Development server
 
